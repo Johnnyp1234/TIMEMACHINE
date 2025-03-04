@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* We want p5 canvas to fill the screen */
+  font-family: "OCR A", monospace;
+}
+
+/* For the "Begin" button on the intro screen */
+.beginBtn {
+  background: none;
+  border: 2px solid black;
+  padding: 10px;
+  font-family: "OCR A", monospace;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.beginBtn:hover {
+  transform: scale(1.1);
+}
+
+/* For the circular layout choice buttons */
+.choiceBtn {
+  background: pink;
+  color: navy;
+  font-family: "OCR A", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 8px 14px;
+  transition: transform 0.2s ease;
+}
+
+.choiceBtn:hover {
+  transform: scale(1.15);
+}
